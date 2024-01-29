@@ -102,3 +102,60 @@ This is a simple Typing Speed Tester application built using Python and Pygame. 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+
+# Voice Recorder App
+
+This is a simple Voice Recorder application built using Python and Tkinter. It allows users to record audio and save the recording as a WAV file.
+
+## Features
+
+- Record audio using the device's microphone.
+- Toggle between recording and stopping with a single button.
+- Save the recorded audio as a WAV file.
+- User-friendly graphical interface using Tkinter.
+
+## How to Use
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/voice-recorder.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd voice-recorder
+   ```
+
+3. Install any required dependencies:
+
+   ```bash
+   pip install sounddevice numpy
+   ```
+
+4. Run the application:
+
+   ```bash
+   python voice_recorder.py
+   ```
+
+5. Press the "Record" button to start recording. The button will change to "Stop Recording" during the recording session.
+
+6. Press "Stop Recording" to stop the recording. The "Save" button will become active.
+
+7. Press the "Save" button to choose a location to save the recorded audio as a WAV file.
+
+## Dependencies
+
+- Python 3.x
+- Sounddevice
+- NumPy
+- Tkinter (should be included in most Python installations)
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+
